@@ -14,3 +14,6 @@
 - HTML5: Para la estructura básica del contenido.
 - CSS3: Para el estilo y diseño de la aplicación.
 - JavaScript: Para la lógica de encriptación, desencriptación, y la interacción con el usuario.
+
+## Proyecto Desplejado
+- https://painemalbraian.github.io/EncriptadorTextual/
