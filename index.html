@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/EncriptadorAlura/Estilos/style.css" />
+    <title>Encriptador de Texto</title>
+</head>
+
+<body>
+    <main>
+        <div class="logo">
+            <header>
+                <img src="/EncriptadorAlura/Imagenes/Logo.jpeg" alt="Img-Logo" class="logo" />
+            </header>
+        </div>
+        <section class="encriptador">
+            <div class="encriptador-contenedor">
+                <textarea class="txtEncriptador" placeholder="Insertar Texto"></textarea>
+                <div class="atencion">
+                    <img src="/EncriptadorAlura/Imagenes/aviso.svg" alt="Ing-Aviso" class="aviso" />
+                    <p class="texto-aviso">Advertencia: Solo minusculas y sin Tíldes</p>
+                </div>
+                <button type="submit" class="btn-encriptar">Encriptar</button>
+                <button type="submit" class="btn-desencriptar">Desencriptar</button>
+
+            </div>
+
+        </section>
+        <section class="mascota">
+            <div class="mascota-contenedor">
+                <img src="/EncriptadorAlura/Imagenes/Perrito0.jpeg" alt="Img-perritu" class="Img-perritu"
+                    id="perrito" />
+                <p class="texto-uno">Bienvenid@ 😀</p>
+                <p class="texto-dos">
+                    Ingrese el texto que deseas encriptar o desencriptar
+                </p>
+            </div>
+            <textarea type="mensaje" class="evaluar" readonly></textarea>
+            <button type="submit" class="btn-copiar">Copiar</button>
+        </section>
+
+    </main>
+    <div class="footer-container">
+        <footer>
+            <p class="footer">&copy; Desarrollado Por Painemal Braian</p>
+        </footer>
+    </div>
+
+    <script src="/EncriptadorAlura/Funcionalidades/index.js"></script>
+</body>
+
+</html>
