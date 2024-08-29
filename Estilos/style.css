@@ -149,7 +149,7 @@ main {
 .mascota {
   width: 80%;
   max-width: 400px;
-  height: auto;
+  height: 900px;
   background: var(--blanco);
   box-shadow: 0px 40px 40px 5px var(--color-terciario);
   position: relative;
